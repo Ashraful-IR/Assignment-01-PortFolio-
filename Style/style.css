@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  color: #999999;
+  background: #1d1713;
+  line-height: 1.7;
+  overflow-x: hidden;
+  height: auto;
+}
+.rightsidebar {
+  background-color: #1d1713;
+  padding: 30px;
+  margin-left: 320px;
+  width: calc(100% - 310px);
+  min-height: 100vh;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.leftsidebar {
+  background-color: #1d1713;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 320px;
+  position: fixed;
+  top: 40px;
+  border: 0.5px solid rgb(255, 255, 255);
+  left: 0;
+}
+.leftsidebar:hover {
+  box-shadow: #ff6f61 0px 4px 12px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.leftsidebar img.me {
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border: #a97142 3px solid;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-header img {
+  width: 100px;
+  height: 100px;
+}
+
+.leftsidebar .sidebar-header .designation {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.4;
+  text-align: right;
+  line-height: 1.2;
+  max-width: 150px;
+}
+
+.leftsidebar h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.2;
+}
+.leftsidebar .copyright {
+  font-size: 10px;
+  font-weight: 200;
+  color: #999999;
+  margin-top: 20px;
+  text-align: center;
+}
+.leftsidebar .socialmedia {
+  display: flex;
+  justify-content: center;
+}
+.leftsidebar .socialmedia li {
+  list-style: none;
+  margin: 0 10px;
+}
+.socialmedia i {
+  font-size: 40px;
+  color: #a97142;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.socialmedia i:hover {
+  color: #ff6f61;
+  transform: scale(1.2);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.leftsidebar .hire {
+  background-color: #a97142;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.leftsidebar .hire:hover {
+  background-color: #ff6f61;
+  transition: background-color 0.3s ease;
+}
+.rightsidebar .navbar {
+  position: fixed;
+  top: 40px;
+  left: 355px;
+  width: calc(100% - 355px);
+  z-index: 1000;
+  background: rgba(29, 23, 19, 0.8);
+  border-radius: 20px;
+  border: 0.5px solid #ffffff;
+}
+
+.rightsidebar .navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+.rightsidebar .navigation li {
+  margin: auto;
+  list-style: none;
+}
+.navigation i {
+  font-size: 20px;
+  color: #a97142;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.navigation i:hover {
+  color: #ff6f61;
+  transform: scale(1.2);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.rightsidebar .Home .Homeheading {
+  font-size: 70px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.rightsidebar .Home .Homeheading span {
+  color: #a97142;
+}
+.rightsidebar .Home .HomeDetailss {
+  font-size: 16px;
+  font-weight: 200;
+  color: #999999;
+  text-align: justify;
+}
+.rightsidebar .About .Aboutheading {
+  font-size: 70px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.rightsidebar .About .Aboutheading span {
+  color: #a97142;
+}
+.rightsidebar .About .AboutDetailss {
+  font-size: 16px;
+  font-weight: 200;
+  color: #999999;
+  text-align: justify;
+}
+
+.rightsidebar .About .Aboutheading {
+  font-size: 70px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.rightsidebar .Contact .ContactHeading {
+  font-size: 70px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.rightsidebar .Contact .ContactHeading span {
+  color: #a97142;
+}
+.rightsidebar h2 {
+  font-size: 25px;
+  font-weight: 100;
+  color: #a97142;
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 50px;
+}
+.rightsidebar .Contact .ContactForm.Form {
+  display: inline-block;
+  gap: 15px;
+}
+.ContactForm {
+  max-width: 600px;
+}
+
+.ContactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ContactForm input,
+.ContactForm textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: transparent;
+  border: 1px solid #81766c;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ContactForm textarea {
+  resize: none;
+  min-height: 140px;
+}
+.ContactForm input::placeholder,
+.ContactForm textarea::placeholder {
+  color: #454242;
+}
+
+.ContactForm input:focus,
+.ContactForm textarea:focus {
+  outline: none;
+  border-color: #c5cbca;
+  box-shadow: 0 0 0 1px #a97142;
+}
+
+.sendbtn {
+  width: fit-content;
+  padding: 14px 32px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #a97142;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sendbtn:hover {
+  background-color: #a97142;
+  transform: translateY(-2px);
+}
+
+.sendbtn:active {
+  transform: translateY(0);
+}
+.links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 76px;
+  font-size: 30px;
+}
+.links i {
+  color: #a97142;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.links i:hover {
+  color: #ff6f61;
+  transform: scale(1.2);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.education h3 {
+  font-size: 25px;
+  color: teal;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .Contact {
+    padding: 60px 25px;
+  }
+
+  .ContactHeading {
+    font-size: 28px;
+  }
+}
