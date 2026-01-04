@@ -14,11 +14,12 @@ body {
 .rightsidebar {
   background-color: #1d1713;
   padding: 30px;
-  margin-left: 320px;
-  width: calc(100% - 310px);
-  min-height: 100vh;
+  margin-left: 510px;
+  margin-right: 200px;
+  width: calc(100% - 550px - 180px);
   border-radius: 20px;
-  margin-top: 40px;
+  margin-top: -30px;
+  text-align: justify;
 }
 
 .leftsidebar {
@@ -26,11 +27,11 @@ body {
   border-radius: 20px;
   padding: 30px;
   text-align: center;
-  width: 320px;
+  width: 360px;
   position: fixed;
-  top: 40px;
+  top: 20%;
   border: 0.5px solid rgb(255, 255, 255);
-  left: 0;
+  left: 9;
 }
 .leftsidebar:hover {
   box-shadow: #ff6f61 0px 4px 12px;
@@ -118,9 +119,9 @@ body {
 }
 .rightsidebar .navbar {
   position: fixed;
-  top: 40px;
-  left: 355px;
-  width: calc(100% - 355px);
+  top: 300px;
+  right: 20px;
+  width: 50px;
   z-index: 1000;
   background: rgba(29, 23, 19, 0.8);
   border-radius: 20px;
@@ -129,10 +130,11 @@ body {
 
 .rightsidebar .navigation {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  flex-direction: column;
+  gap: 50px;
   padding: 0;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 .rightsidebar .navigation li {
   margin: auto;
@@ -293,7 +295,27 @@ body {
   color: teal;
   font-family: monospace;
 }
+.experience h3 {
+  font-size: 25px;
+  color: teal;
+  font-family: monospace;
+}
 
+.skill .skilliner img {
+  height: 60px;
+}
+.skill .skilliner h1 {
+  font-size: medium;
+}
+.skill p {
+  
+    font-size: 20px;
+    font-family: monospace;
+    color: cyan;
+}
+ .skilliner{
+  border: 1px solid chocolate;
+ }
 @media (max-width: 768px) {
   .Contact {
     padding: 60px 25px;
