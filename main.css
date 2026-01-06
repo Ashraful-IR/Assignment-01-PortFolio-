@@ -213,6 +213,17 @@ body {
   color: #a97142;
   padding: 10px;
 }
+.rightsidebar .Work .myskillheading {
+  font-size: 70px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.rightsidebar .Work .myskillheading span {
+  color: #a97142;
+  padding: 10px;
+}
 .rightsidebar h2 {
   font-size: 25px;
   font-weight: 100;
@@ -345,6 +356,22 @@ body {
 
 .skill {
   width: 150px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services {
+  border: 1px solid #a97142;
+  width: auto;
+  height: 200px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.services:hover {
+  box-shadow: #ff6f61 0px 4px 12px;
+  transition: box-shadow 0.1s ease-in-out;
 }
 @media (max-width: 768px) {
   .Contact {
